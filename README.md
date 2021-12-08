@@ -9,7 +9,7 @@
 
 - Browser treats inline elements as typography, hence line-height is applied to those elements.
 
--  Inline elements internally act like block elements, but externally act like inline elements. The parent container will treat it as an inline element, since it's external. But the element itself can be styled like a block.
+- Inline-block elements internally act like block elements, but externally act like inline elements. The parent container will treat it as an inline element, since it's external. But the element itself can be styled like a block.
 
 - Fit-content behaves like max-content, though if the content is too wide to fit in the parent, it add line-breaks as-needed.
 
